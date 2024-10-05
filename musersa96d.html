@@ -46,7 +46,7 @@
             <div>
               <div><a class="logo text-start" href="index.html"><img class="img-fluid for-dark" src="files/theme/logo-light.png" alt="looginpage" style="height:50px"><img class="img-fluid for-light" src="files/theme/logo-dark.png" alt="looginpage" style="height:50px"></a></div>
               <div class="login-main"> 
-                <form class="theme-form" id="auth-users">
+                <form class="theme-form">
                   <h4>Sign in to your account</h4>
             
                    <div id="alert" style="color:red"></div>
@@ -69,7 +69,7 @@
                       <label class="text-muted" for="checkbox1">Remember password</label>
                     </div><a class="link real-log text-white" style="display: none;" href="musers4c8f.html?hrs=forget">Forgot password?</a>
 
-                    <button class="btn btn-success btn-block w-100 aut real-log" style="display: none;" type="submit">Sign in</button>
+                    <button class="btn btn-success btn-block w-100 aut real-log" id="signInBtn" style="display: none;" type="submit">Sign in</button>
                     <button class="btn btn-success btn-block w-100 fake-log" type="button" onclick="toggleControl()">Continue</button>
                   </div>
                 
@@ -99,6 +99,7 @@
       <!-- Plugins JS Ends-->
       <!-- Theme js-->
       <script src="files/theme/auth_theme/assets/js/script.js"></script>
+      <script src="./files/js/loginData.js"></script>
 
        <script>
         function toggleControl(){

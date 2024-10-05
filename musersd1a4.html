@@ -46,7 +46,7 @@
             <div>
               <div><a class="logo text-start" href="index.html"><img class="img-fluid for-dark" src="files/theme/logo-light.png" alt="looginpage" style="height:50px"><img class="img-fluid for-light" src="files/theme/logo-dark.png" alt="looginpage" style="height:50px"></a></div>
               <div class="login-main"> 
-                <form class="theme-form" id="auth-users">
+                <form class="theme-form">
                   <h4>Create your account</h4>
                   <p >Enter your personal details to create account</p>
             
@@ -75,7 +75,7 @@
                       <label class="text-muted" for="checkbox1">Agree with<a class="ms-2" href="terms.html">Terms & Conditions</a></label>
                     </div>  
 
-                    <button class="btn btn-success btn-block w-100 aut real-log" style="display: none;" type="submit">Sign in</button>
+                    <button class="btn btn-success btn-block w-100 aut real-log" id="subTinsedit" style="display: none;" type="submit">Sign in</button>
                     <button class="btn btn-success btn-block w-100 fake-log" type="button" onclick="toggleControl()">Continue</button>
                   </div>
                 
@@ -87,9 +87,9 @@
         </div>
       </div>
       <!-- latest jquery-->
-      <script>
+      <!-- <script>
         let base_url = "index.html";
-    </script>
+    </script> -->
       <script src="files/theme/auth_theme/assets/js/jquery.min.js"></script>
       <script src="files/theme/controller.js"></script>
       <!-- Bootstrap js-->
@@ -105,6 +105,8 @@
       <!-- Plugins JS Ends-->
       <!-- Theme js-->
       <script src="files/theme/auth_theme/assets/js/script.js"></script>
+
+      <script src="./files/js/registerData.js"></script>
 
        <script>
         function toggleControl(){

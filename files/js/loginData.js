@@ -35,7 +35,7 @@ button.onclick = async (event) => {
   console.log(data);
   button.innerHTML = "Loading...";
 
-  fetch('https://slim-new-site-back-end-two.vercel.app/api/login', {
+  fetch('https://slimnewsitebackend.onrender.com/api/login', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
